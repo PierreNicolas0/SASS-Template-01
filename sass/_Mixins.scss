@@ -1,0 +1,44 @@
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($val, 1fr));
+  gap: 2rem;
+}
+
+@mixin titleText($titleSize) {
+  font-size: $titleSize;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+@mixin graphText($graphSize) {
+  font-size: $graphSize;
+  color: var(--light-color);
+  line-height: 2;
+}
+
+@mixin iconsBox() {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  background: var(--light-bg);
+  color: var(--black);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--black);
+    color: var(--white);
+  }
+}

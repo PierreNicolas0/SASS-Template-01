@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>SASS Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="container">
+        <a href="#" class="logo">We<span>Build</span></a>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+        </ul>
+        <div class="icons">
+          <div id="menu-btn"><i class="fa-solid fa-bars"></i></div>
+          <div id="info-btn"><i class="fa-solid fa-info-circle"></i></div>
+          <div id="search-btn"><i class="fa-solid fa-search"></i></div>
+          <div id="login-btn"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box" class="fa-solid fa-search"></label>
+      </form>
+      <form action="" class="login-form">
+        <h3>Login Form</h3>
+        <input type="email" class="box" placeholder="Enter Your Email" />
+        <input type="password" class="box" placeholder="Enter Your Password" />
+        <div>
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">Remember Me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <input type="submit" value="Login" class="btn" />
+        <p>Don't Have An Account <a href="#">Create One!</a></p>
+      </form>
+    </div>
+    <!-- End Header -->
+    <!-- Start Contact Info -->
+    <div class="contact-info">
+      <div id="close-contact" class="fa-solid fa-times"></div>
+      <div class="info">
+        <i class="fa-solid fa-phone"></i>
+        <h3>Phone Number</h3>
+        <p>+123-450-7890</p>
+        <p>+111-222-3334</p>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-envelope"></i>
+        <h3>Email Address</h3>
+        <p>shaikhanas@gmail.com</p>
+        <p>anasbhai@gmail.com</p>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-map-marker-alt"></i>
+        <h3>Office Address</h3>
+        <p>mumbai, india - 400414</p>
+      </div>
+      <div class="share">
+        <a href="#" class="fa-brands fa-facebook-f"></a>
+        <a href="#" class="fa-brands fa-twitter"></a>
+        <a href="#" class="fa-brands fa-instagram"></a>
+        <a href="#" class="fa-brands fa-linkedin"></a>
+      </div>
+    </div>
+    <!-- End Contact Info -->
+    <!-- Start Home Section -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(imgs/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>We Provide Best Services</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur beatae iusto pariatur laborum magnam eos!
+              </p>
+              <a href="#about" class="btn">Get Started</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(imgs/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Making Dream Come To Life</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur beatae iusto pariatur laborum magnam eos!
+              </p>
+              <a href="#about" class="btn">Get Started</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(imgs/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>From Concept To Creation</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur beatae iusto pariatur laborum magnam eos!
+              </p>
+              <a href="#about" class="btn">Get Started</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Start About Section -->
+    <section class="about" id="about">
+      <h1 class="heading">About Us</h1>
+      <div class="row">
+        <div class="video">
+          <video src="imgs/about-vid.mp4" loop muted autoplay></video>
+        </div>
+        <div class="content">
+          <h3>We will ptovide you the best work which you dreamt for!</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Quas et
+            vero mollitia nemo corporis consequatur aspernatur distinctio
+            dignissimos velit nam.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>10+</h3>
+          <p>Years Of Experience</p>
+        </div>
+        <div class="box">
+          <h3>1500+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="box">
+          <h3>790+</h3>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="box">
+          <h3>450+</h3>
+          <p>Active Workers</p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Services Section -->
+    <section class="services" id="services">
+      <h1 class="heading">Our Services</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="imgs/service-1.png" alt="" />
+          <h3>Building Construction</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-2.png" alt="" />
+          <h3>House Renovation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-3.png" alt="" />
+          <h3>Architechture Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-4.png" alt="" />
+          <h3>Material Supply</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-5.png" alt="" />
+          <h3>Construction Consultant</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-6.png" alt="" />
+          <h3>Interior Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-7.png" alt="" />
+          <h3>Building Maintenance</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/service-8.png" alt="" />
+          <h3>Building Renovation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consecteteur adipising elit. Fugit,
+            necessitatibus
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Projects Section -->
+    <section class="projects" id="projects">
+      <h1 class="heading">Our Projects</h1>
+      <div class="box-container">
+        <a href="imgs/project-1.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+        <a href="imgs/project-2.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+        <a href="imgs/project-3.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+        <a href="imgs/project-4.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+        <a href="imgs/project-5.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+        <a href="imgs/project-6.jpg" class="box">
+          <div class="image">
+            <img src="imgs/project-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+    <!-- Start Reviews Section -->
+    <section class="reviews">
+      <h1 class="heading">Clients Reviews</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-1.png" alt="" />
+              <div class="info">
+                <h3>John Deo</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-2.png" alt="" />
+              <div class="info">
+                <h3>Angelina</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-3.png" alt="" />
+              <div class="info">
+                <h3>Pierre</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-4.png" alt="" />
+              <div class="info">
+                <h3>Yasmine</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-5.png" alt="" />
+              <div class="info">
+                <h3>Elzero</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor, sit amet consecteteur adipising elit.
+              Aspernatur beatae iusto pariatur laborum magnam eos!.Aspernatur
+              beatae iusto pariatur laborum magnam eos!
+            </p>
+            <div class="user">
+              <img src="imgs/pic-6.png" alt="" />
+              <div class="info">
+                <h3>Lea</h3>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Reviews Section -->
+    <!-- Start Pricing Section -->
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Our Pricing</h1>
+      <div class="box-container">
+        <div class="box basic">
+          <i class="fa-solid fa-home"></i>
+          <h3>Basic Plan</h3>
+          <div class="price"><span>$</span>250<span>/mo</span></div>
+          <div class="list">
+            <p><span>Interior Designer</span></p>
+            <p>Refurbishement</p>
+            <p>Material Supply</p>
+            <p>Maintenance</p>
+            <p>24/7 Support</p>
+          </div>
+          <a class="btn" href="#">Choose Plan</a>
+        </div>
+        <div class="box premium">
+          <i class="fa-solid fa-building"></i>
+          <h3>Premium Plan</h3>
+          <div class="price"><span>$</span>650<span>/mo</span></div>
+          <div class="list">
+            <p>Interior Designer</p>
+            <p>Refurbishement</p>
+            <p>Material Supply</p>
+            <p>Maintenance</p>
+            <p>24/7 Support</p>
+          </div>
+          <a class="btn" href="#">Choose Plan</a>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-city"></i>
+          <h3>Unlimate Plan</h3>
+          <div class="price"><span>$</span>1250<span>/mo</span></div>
+          <div class="list">
+            <p>Interior Designer</p>
+            <p>Refurbishement</p>
+            <p>Material Supply</p>
+            <p>Maintenance</p>
+            <p>24/7 Support</p>
+          </div>
+          <a class="btn" href="#">Choose Plan</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+    <!-- Start Contact Section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact Us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.78825226032!2d72.82321484315665!3d19.141690214234583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047%2C%20India!5e0!3m2!1sen!2slb!4v1670257259892!5m2!1sen!2slb"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <h3>Get In Touch</h3>
+          <input type="text" class="box" placeholder="Your Name" />
+          <input type="email" class="box" placeholder="Enter Your Email" />
+          <input type="number" class="box" placeholder="Your Phone Number" />
+          <textarea class="box" placeholder="Message"></textarea>
+          <input class="btn" type="submit" value="Send Message" />
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Blogs Section -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our Blogs</h1>
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Blog Title Goes Here</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consecteteur adipising elit.
+                Aspernatur, nobis!
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blogs Section -->
+    <!-- Start Client Logo Section -->
+    <section class="logo-container">
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-1.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-2.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-3.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-4.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-5.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="imgs/client-logo-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Client Logo Section -->
+    <!-- Start Footer Section -->
+    <section class="footer">
+      <div class="links">
+        <a class="btn" href="#home">Home</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#services">Services</a>
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#pricing">Pricing</a>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn" href="#blogs">Blogs</a>
+      </div>
+      <div class="credit">
+        Created By <span>mr. web designer</span> | all rights reversed!
+      </div>
+    </section>
+    <!-- End Footer Section -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
